@@ -26,7 +26,8 @@ $(function() {
 // name
 $(window).on('load', function() {
 	$("#fname").addClass("animated bounceInDown infinite");
-	$("#home-btn a").addClass("animated fadeInDown infinite");
+	$("#home-btn a").addClass("animated pulse infinite");
+	$("#arrow-down i").addClass("animated fadeInDown infinite");
 });
 
 
