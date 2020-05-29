@@ -73,6 +73,7 @@ section {
 	background: none;
 	height: 100%;
 }
+
 /*home video styling*/
 #home-bg-video {
 	position: fixed;
@@ -143,9 +144,9 @@ display: inline-block;
 .btn-general {
 	font-family: "Raleway","sans-serif";
 	font-size: 17px;
-	border-radius: 25px;
+	border-radius: 5px;
 	margin: 15px 0px 20px 0px;
-	padding: 10px 30px;
+	padding: 10px 40px;
 	-webkit-transition: all 0.5s;
 	transition: all 0.3s;
 }
@@ -159,9 +160,14 @@ display: inline-block;
 	color: white;
 	border: 1px solid white;
 	background-color: #339999;
+	
+
+}
+#home-btn {
 	position: absolute;
-	left: 47%;
-	bottom: 25px;
+	left: 10%;
+	top: 25px;
+
 }
 
 /*-------==================================-----*/
@@ -169,12 +175,12 @@ display: inline-block;
 /*===================Arrow Down*/
 #arrow-down  {
 	color: white;
-	font-size: 35px;
+	font-size: 15px;
 	position: absolute;
-	left: 50%;
+	right: 50%;
 	bottom: 15px;
-	width: 35px;
-	height: 35px;
+	padding: 10px 20px;
+	border-radius: 50%;
 	text-align: center;
 	z-index: 1;
 
@@ -370,6 +376,10 @@ padding: 100px 0px;
 }
 
 
-
+#cv {
+	padding: 10px 20px;
+	border-radius: 50%;
+	
+}
 
 
